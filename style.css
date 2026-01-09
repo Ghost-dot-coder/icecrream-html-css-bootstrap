@@ -648,7 +648,7 @@ p {
   height: 18px;
   border-radius: 50% 50% 50% 0;
   transform: rotate(-45deg);
-  background: #28a745; /* green */
+  background: #94090e; /* green */
   position: relative;
   display: inline-block;
 }
@@ -658,7 +658,7 @@ p {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #ffd166; /* yellow */
+  background: white; /* yellow */
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%) rotate(45deg);
@@ -914,6 +914,7 @@ p {
 
 .icon {
   width: 18px;
+  color:#b01818 ;
   height: 18px;
   position: relative;
   flex: 0 0 auto;
@@ -975,8 +976,6 @@ p {
 }
 
 .social-icon {
-  width: 26px;
-  height: 26px;
   display: grid;
   place-items: center;
   text-decoration: none;
@@ -984,9 +983,8 @@ p {
 
 /* icon stroke style */
 .si {
-  width: 22px;
-  height: 22px;
-  border: 2px solid #b01818;
+  font-size: 1.5rem;
+  color: #8f1212;
   border-radius: 6px;
   position: relative;
 }
